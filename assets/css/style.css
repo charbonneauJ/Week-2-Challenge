@@ -1,0 +1,93 @@
+header {
+  background-color: #3c16c4;
+  padding: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  size: 10%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+ul {
+  list-style-type: none;
+}
+
+header h1 {
+  color: #8ed4dd;
+  font-size: 30px;
+}
+
+nav li, nav li a {
+  color: #8ed4dd;
+  display: inline-flex;
+  margin: 2px;
+  padding: 2px;
+  list-style: none;
+}
+ 
+
+.Subheader {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  size: 7.5%;
+  background-color: rgb(0, 153, 255);
+}
+.Subheader p  {
+display: flex;
+
+}
+
+body {
+ 
+
+
+}
+
+p {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.flex-grid {
+  display: flex;
+  
+}
+
+.AboutMe {
+  flex: 1;
+  justify-content: space-between;
+  width: 100%;
+}
+.AboutMe h2 {
+  flex: 1;
+  width: 100%;
+} 
+
+.AboutMe p {
+  flex: 1;
+}
+
+.Workdone {
+  flex: 1;
+  width: calc(100%);
+
+}
+
+.FutureWork {
+  flex: 1;
+  width: calc(100%/4);
+  flex-direction: row;
+  
+  
+}
+
+
+h3 {
+ flex: 1;
+ display: flex
+ ;
+}
